@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9F7EFE7C28A751280011540E /* SwiftUI_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFE7B28A751280011540E /* SwiftUI_TutorialsApp.swift */; };
-		9F7EFE7E28A751280011540E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFE7D28A751280011540E /* ContentView.swift */; };
+		9F7EFE7E28A751280011540E /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFE7D28A751280011540E /* MeetingView.swift */; };
 		9F7EFE8028A751390011540E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7EFE7F28A751390011540E /* Assets.xcassets */; };
 		9F7EFE8328A751390011540E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7EFE8228A751390011540E /* Preview Assets.xcassets */; };
 		9F7EFE8D28A7513A0011540E /* SwiftUI_TutorialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFE8C28A7513A0011540E /* SwiftUI_TutorialsTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		9F7EFE7828A751280011540E /* SwiftUI_Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Tutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7EFE7B28A751280011540E /* SwiftUI_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialsApp.swift; sourceTree = "<group>"; };
-		9F7EFE7D28A751280011540E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9F7EFE7D28A751280011540E /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		9F7EFE7F28A751390011540E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F7EFE8228A751390011540E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9F7EFE8828A7513A0011540E /* SwiftUI_TutorialsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_TutorialsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				9F7EFE7B28A751280011540E /* SwiftUI_TutorialsApp.swift */,
-				9F7EFE7D28A751280011540E /* ContentView.swift */,
+				9F7EFE7D28A751280011540E /* MeetingView.swift */,
 				9F7EFE7F28A751390011540E /* Assets.xcassets */,
 				9F7EFE8128A751390011540E /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F7EFE7E28A751280011540E /* ContentView.swift in Sources */,
+				9F7EFE7E28A751280011540E /* MeetingView.swift in Sources */,
 				9F7EFE7C28A751280011540E /* SwiftUI_TutorialsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
