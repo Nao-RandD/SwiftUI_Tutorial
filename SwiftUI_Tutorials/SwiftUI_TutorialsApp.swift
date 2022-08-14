@@ -11,7 +11,9 @@ import SwiftUI
 struct SwiftUI_TutorialsApp: App {
     var body: some Scene {
         WindowGroup {
-            MeetingView()
+            NavigationView {
+                ScrumsView(scrums: DailyScrum.sampleData)
+            }
         }
     }
 }
