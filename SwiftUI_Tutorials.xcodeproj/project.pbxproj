@@ -14,6 +14,9 @@
 		9F7EFE8D28A7513A0011540E /* SwiftUI_TutorialsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFE8C28A7513A0011540E /* SwiftUI_TutorialsTests.swift */; };
 		9F7EFE9728A7513A0011540E /* SwiftUI_TutorialsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFE9628A7513A0011540E /* SwiftUI_TutorialsUITests.swift */; };
 		9F7EFE9928A7513A0011540E /* SwiftUI_TutorialsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFE9828A7513A0011540E /* SwiftUI_TutorialsUITestsLaunchTests.swift */; };
+		9F7EFEA728A79B620011540E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFEA628A79B620011540E /* Theme.swift */; };
+		9F7EFEA928A79C4E0011540E /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFEA828A79C4E0011540E /* DailyScrum.swift */; };
+		9F7EFEAB28A79D440011540E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFEAA28A79D440011540E /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		9F7EFE9228A7513A0011540E /* SwiftUI_TutorialsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUI_TutorialsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7EFE9628A7513A0011540E /* SwiftUI_TutorialsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialsUITests.swift; sourceTree = "<group>"; };
 		9F7EFE9828A7513A0011540E /* SwiftUI_TutorialsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9F7EFEA628A79B620011540E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		9F7EFEA828A79C4E0011540E /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		9F7EFEAA28A79D440011540E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +100,12 @@
 		9F7EFE7A28A751280011540E /* SwiftUI_Tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				9F7EFEA528A79B230011540E /* Models */,
 				9F7EFE7B28A751280011540E /* SwiftUI_TutorialsApp.swift */,
 				9F7EFE7D28A751280011540E /* MeetingView.swift */,
 				9F7EFE7F28A751390011540E /* Assets.xcassets */,
 				9F7EFE8128A751390011540E /* Preview Content */,
+				9F7EFEAA28A79D440011540E /* CardView.swift */,
 			);
 			path = SwiftUI_Tutorials;
 			sourceTree = "<group>";
@@ -125,6 +133,15 @@
 				9F7EFE9828A7513A0011540E /* SwiftUI_TutorialsUITestsLaunchTests.swift */,
 			);
 			path = SwiftUI_TutorialsUITests;
+			sourceTree = "<group>";
+		};
+		9F7EFEA528A79B230011540E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9F7EFEA628A79B620011540E /* Theme.swift */,
+				9F7EFEA828A79C4E0011540E /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +274,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F7EFEA928A79C4E0011540E /* DailyScrum.swift in Sources */,
+				9F7EFEA728A79B620011540E /* Theme.swift in Sources */,
 				9F7EFE7E28A751280011540E /* MeetingView.swift in Sources */,
 				9F7EFE7C28A751280011540E /* SwiftUI_TutorialsApp.swift in Sources */,
+				9F7EFEAB28A79D440011540E /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
