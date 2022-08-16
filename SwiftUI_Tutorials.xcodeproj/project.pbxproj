@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F33584B28ABA033003A5263 /* ThemePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F33584A28ABA032003A5263 /* ThemePicker.swift */; };
 		9F7EFE7C28A751280011540E /* SwiftUI_TutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFE7B28A751280011540E /* SwiftUI_TutorialsApp.swift */; };
 		9F7EFE7E28A751280011540E /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFE7D28A751280011540E /* MeetingView.swift */; };
 		9F7EFE8028A751390011540E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7EFE7F28A751390011540E /* Assets.xcassets */; };
@@ -20,6 +21,8 @@
 		9F7EFEAD28A8C76F0011540E /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFEAC28A8C76E0011540E /* TrailingIconLabelStyle.swift */; };
 		9F7EFEAF28A8C9DE0011540E /* ScrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFEAE28A8C9DE0011540E /* ScrumsView.swift */; };
 		9F7EFEB128A8CCC60011540E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFEB028A8CCC60011540E /* DetailView.swift */; };
+		9F7EFEB328AA31950011540E /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFEB228AA31950011540E /* DetailEditView.swift */; };
+		9F7EFEB528AA34350011540E /* ThemeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7EFEB428AA34350011540E /* ThemeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F33584A28ABA032003A5263 /* ThemePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePicker.swift; sourceTree = "<group>"; };
 		9F7EFE7828A751280011540E /* SwiftUI_Tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Tutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7EFE7B28A751280011540E /* SwiftUI_TutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_TutorialsApp.swift; sourceTree = "<group>"; };
 		9F7EFE7D28A751280011540E /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		9F7EFEAC28A8C76E0011540E /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		9F7EFEAE28A8C9DE0011540E /* ScrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumsView.swift; sourceTree = "<group>"; };
 		9F7EFEB028A8CCC60011540E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		9F7EFEB228AA31950011540E /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
+		9F7EFEB428AA34350011540E /* ThemeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,9 @@
 				9F7EFEAC28A8C76E0011540E /* TrailingIconLabelStyle.swift */,
 				9F7EFEAE28A8C9DE0011540E /* ScrumsView.swift */,
 				9F7EFEB028A8CCC60011540E /* DetailView.swift */,
+				9F7EFEB228AA31950011540E /* DetailEditView.swift */,
+				9F7EFEB428AA34350011540E /* ThemeView.swift */,
+				9F33584A28ABA032003A5263 /* ThemePicker.swift */,
 			);
 			path = SwiftUI_Tutorials;
 			sourceTree = "<group>";
@@ -283,13 +292,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F33584B28ABA033003A5263 /* ThemePicker.swift in Sources */,
 				9F7EFEA928A79C4E0011540E /* DailyScrum.swift in Sources */,
 				9F7EFEB128A8CCC60011540E /* DetailView.swift in Sources */,
+				9F7EFEB328AA31950011540E /* DetailEditView.swift in Sources */,
 				9F7EFEAD28A8C76F0011540E /* TrailingIconLabelStyle.swift in Sources */,
 				9F7EFEA728A79B620011540E /* Theme.swift in Sources */,
 				9F7EFEAF28A8C9DE0011540E /* ScrumsView.swift in Sources */,
 				9F7EFE7E28A751280011540E /* MeetingView.swift in Sources */,
 				9F7EFE7C28A751280011540E /* SwiftUI_TutorialsApp.swift in Sources */,
+				9F7EFEB528AA34350011540E /* ThemeView.swift in Sources */,
 				9F7EFEAB28A79D440011540E /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
