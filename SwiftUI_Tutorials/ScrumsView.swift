@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ScrumsView: View {
+    // @Bindingで呼び元のSwiftUI_TutorialsAppのscrumsプロパティをread/writeできる
     @Binding var scrums: [DailyScrum]
 
     var body: some View {
